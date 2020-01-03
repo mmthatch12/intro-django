@@ -7,6 +7,9 @@ verify_ssl = true
 
 [packages]
 django = "*"
+python-decouple = "*"
+unipath = "*"
+dj-database-url = "*"
 
 [requires]
 python_version = "3.8"

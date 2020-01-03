@@ -6,5 +6,5 @@ from uuid import uuid4
 
 class Note(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid4, editable=False)
-    title = modles.CharField(max_length=200)
+    title = models.CharField(max_length=200)
     content = models.TextField(blank=True)
